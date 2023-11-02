@@ -1,5 +1,3 @@
-# codex 0x6b64
-
 <i>Some musings about stuff I find interesting</i>
 
 ---
