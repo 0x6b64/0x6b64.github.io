@@ -1,0 +1,24 @@
+<h1>codex 0x6b64</h1>
+<p><i>Some musings about stuff I find interesting</i></p>
+<hr>
+<h3>Rob Pike's 5 rules of programming.</h3>
+<p>November 1, 2023</p>
+<p>I first started following Rob Pike from when he worked on GoLang. He obviously has a lot of prior experience, but that was when I first came to know of him. His works always were so insightful &amp;&amp; his five rules for programming ring so true, that they are worth repeating ad infinitum.</p>
+<ol>
+<li>
+<p>You can't tell where a program is going to spend most of its time. Bottlenecks occur in surprising places, so don't try to second guess and put in a speed hack until you've proven that's where the bottleneck is.</p>
+</li>
+<li>
+<p>Measure. Don't tune for speed until you've measured, and even then don't unless one part of the code overwhelms the rest.</p>
+</li>
+<li>
+<p>Fancy algorithms are slow when n is small &amp;&amp; n is usually small. Fancy algorithms have big constants. Until you know that n is frequently going to be big, don't get fancy. (Even if n does not get big, use Rule 2 first)</p>
+</li>
+<li>
+<p>Fancier algorithms are buggier than simpler ones, and they're much harder to implement. Use simple algorithms as well as simple data structures.</p>
+</li>
+<li>
+<p>Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self evident. Data structures, not algorithms, are central to programming.</p>
+</li>
+</ol>
+<p>Source: <a href="https://users.ece.utexas.edu/~adnan/pike.html">https://users.ece.utexas.edu/~adnan/pike.html</a></p>

@@ -1,12 +1,10 @@
-Setting up and running local server.
+Using simple 11ty for swg.
+
+https://www.11ty.dev/docs/get-started/
 
 ```bash
-# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
-# Setup docs as the source folder in Github actions. 
-mkdir docs ; cd docs ; 
-sudo gem install jekyll
-jekyll new --skip-bundle .
-bundle install
-bundle update github-pages
-bundle exec jekyll serve
+npm init -y
+npm install @11ty/eleventy --save-dev
+npx @11ty/eleventy
+npx @11ty/eleventy --serve
 ```
